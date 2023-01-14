@@ -72,7 +72,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a target="blank" class="getstarted scrollto" href="{{url('login')}}">Log In</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -89,7 +89,7 @@
           <h1>Bettter digital experience with Ninestars</h1>
           <h2>We are team of talented designers making websites with Bootstrap</h2>
           <div>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="{{url('login')}}" class="btn-get-started scrollto">Log In</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
