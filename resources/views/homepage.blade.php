@@ -108,22 +108,22 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Clients</h2>
-          <p>They trusted us</p>
+          <!-- <h2></h2> -->
+          <p>Announcement</p>
         </div>
 
         <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
           </div>
-          <div class="swiper-pagination"></div>
+          <!-- <div class="swiper-pagination"></div> -->
         </div>
 
       </div>
@@ -166,39 +166,73 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Check out the great services we offer</p>
+          <p>Check out our great services we offer</p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+              <div class="icon"><i class="bx bxl-pencil"></i></div>
+              <h4 class="title"><a href="">Eyebrow Threading</a></h4>
+              <p class="description">P100 (15 mins and up)</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+              <div class="icon"><i class="bx bx-hair"></i></div>
+              <h4 class="title"><a href="">High Lights </a></h4>
+              <p class="description">Starting at P350 (30 minutes and up)</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+              <div class="icon"><i class="bx bx-balayage"></i></div>
+              <h4 class="title"><a href="">Balayage color</a></h4>
+              <p class="description">P250 (180 mins and up)</p>
+              <h4 class="title"><a href="">Soft Balayage</a></h4>
+              <p class="description">Soft Balayage - P799</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+              <div class="icon"><i class="bx bx-make-up"></i></div>
+              <h4 class="title"><a href="">Hair & Make-Up</a></h4>
+              <p class="description">P350 (30 mins and up)</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-shreding"></i></div>
+              <h4 class="title"><a href="">OmbreShreding</a></h4>
+              <p class="description">P8,000 (120 mins and up)</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-brow"></i></div>
+              <h4 class="title"><a href="">Combi-Brow</a></h4>
+              <p class="description">P10,000 (120 mins and up)</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-brow"></i></div>
+              <h4 class="title"><a href="">Smart Rebond w/ Treatment</a></h4>
+              <p class="description">P599</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-brow"></i></div>
+              <h4 class="title"><a href="">Hair Color w/ Cut</a></h4>
+              <p class="description">P349</p>
             </div>
           </div>
 
@@ -213,16 +247,16 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Check out our beautifull portfolio</p>
+          <p>Check out our beautiful portfolio</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Hair</li>
+              <li data-filter=".filter-card">Nails</li>
+              <li data-filter=".filter-web">More</li>
             </ul>
           </div>
         </div>
@@ -231,126 +265,126 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/hair.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/hair.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4></h4>
+                <!-- <p>App</p> -->
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/p1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/p1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/hair1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/nail1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/p2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/p2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/hair2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/hair2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4></h4>
+                <p>.</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/nail2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/nail2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/nail3.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/nail3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/p3..jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portfolio/p3..jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
