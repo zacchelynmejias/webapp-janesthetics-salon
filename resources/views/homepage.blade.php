@@ -72,7 +72,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">More Info</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact & location</a></li>
           <li><a class="getstarted scrollto" href="{{url('login')}}">Log In</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -139,20 +139,22 @@
           </div>
           <div class="col-lg-6 pt-5 pt-lg-0">
             <center><h3 data-aos="fade-up">About Us</h3></center>
-            <p data-aos="fade-up" data-aos-delay="100">
-              <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit -->
-            </p> 
-            <div class="row">
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <i class="bx bx-receipt"></i>
-                <h4>Corporis voluptates sit</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            <!-- <p data-aos="fade-up" data-aos-delay="100"> -->
+              <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit  
+            </p> -->
+            <!-- <div class="row"> -->
+                <!-- <i class="bx bx-"></i> -->
+                <p data-aos="fade-up" data-aos-delay="200">
+                <p align = "justify"> 
+                  Janesthetic Salon is a family-possessed business committed to giving  perfection to our administration! Our committed group of beauticians, nails, and skin specialists accompany innumerable long periods of involvement in the magnificence business.</p>
+                <p align = "justify">We endeavor to make each customer our need, ensuring we tune in to everything about that we feature every individual’s common magnificence.Janesthetic Salon is a family-possessed business committed to giving  perfection to our administration! Our committed group of beauticians, nails, and skin specialists accompany innumerable long periods of involvement in the magnificence business.</p>
+                <p align = "justify">You can contact us at our FB page Janesthetic Salon or call us in our contact number 0946 073 0701 and we are located at JC AQUINO st. 2ndfloor of CRISPY KING across OCTOGAN computer store, near DESMARK, Butuan City, Philippines.</p>
               </div>
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <i class="bx bx-cube-alt"></i>
                 <h4>Ullamco laboris nisi</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -295,7 +297,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/hair1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/hair1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
@@ -309,7 +311,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/nail1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/nail1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" "><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
               </div>
               <div class="portfolio-info">
@@ -582,9 +584,9 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-         <!-- <h2>Contact Us</h2> -->
-          <p>More Info</p>
+        <div class="section-title"> 
+           <!-- <h2>Contact Us</h2>   -->
+          <p>Contact & Location</p>
         </div>
 
         <div class="row">

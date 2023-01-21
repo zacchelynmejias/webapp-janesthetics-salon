@@ -3,4 +3,4 @@
 </svg>-->
 
 
-<img src="assets/img/js.png" width="96px"/>
+<img src="assets/img/js.png" width="90px"/>

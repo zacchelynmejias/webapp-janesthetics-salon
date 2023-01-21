@@ -582,6 +582,7 @@ section {
 .about p {
   font-size: 15px;
   color: #5a6570;
+  text-indent: 50px;
 }
 
 @media (max-width: 991px) {
