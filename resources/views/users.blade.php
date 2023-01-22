@@ -9,46 +9,34 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    
+
+                <h2 class="float-left"> 
+                    {{ $header }}
+                </h2>
+
                 <button class="float-right rounded-full bg-green-800 p-1 hover:bg-green-700">Add Users</button>
 
                 <table class="table-auto w-full">
                     <thead>
                         <tr>
-                        <th>Song</th>
-                        <th>Artist</th>
-                        <th>Year</th>
+                        <th>Name</th>
+                        <th>Email</th>
                         <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
+
+                        @foreach ($users as $user)
                         <tr>
-                        <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-                        <td class="text-center">Malcolm Lockyer</td>
-                        <td class="text-center">1961</td>
-                        <td class="text-center">
-                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
-                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td>Witchy Woman</td>
-                        <td class="text-center">The Eagles</td>
-                        <td class="text-center">1972</td>
-                        <td class="text-center">
-                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
-                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td>Shining Star</td>
-                        <td class="text-center">Earth, Wind, and Fire</td>
-                        <td class="text-center">1975</td>
-                        <td class="text-center">
-                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
-                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
-                        </td>
-                        </tr>
+                            <td> {{ $user->name }} </td>
+                            <td class="text-center"> {{ $user->email }} </td>
+                            <td class="text-center">
+                                <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
+                                <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
+                            </td>
+                            </tr>
+                        @endforeach
+
                     </tbody>
                     </table>
 
