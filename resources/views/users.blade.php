@@ -10,7 +10,7 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     
-                <button class="float-right rounded-full bg-lime-200 p-1 hover:bg-lime-50">Add Users</button>
+                <button class="float-right rounded-full bg-green-800 p-1 hover:bg-green-700">Add Users</button>
 
                 <table class="table-auto w-full">
                     <thead>
@@ -27,8 +27,8 @@
                         <td class="text-center">Malcolm Lockyer</td>
                         <td class="text-center">1961</td>
                         <td class="text-center">
-                            <button class="rounded-full bg-lime-200 p-1 hover:bg-lime-50">Update</button>
-                            <button class="rounded-full bg-lime-200 p-1 hover:bg-lime-50">Delete</button></button>
+                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
+                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
                         </td>
                         </tr>
                         <tr>
@@ -36,8 +36,8 @@
                         <td class="text-center">The Eagles</td>
                         <td class="text-center">1972</td>
                         <td class="text-center">
-                            <button class="rounded-full bg-lime-200 p-1 hover:bg-lime-50">Update</button>
-                            <button class="rounded-full bg-lime-200 p-1 hover:bg-lime-50">Delete</button></button>
+                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
+                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
                         </td>
                         </tr>
                         <tr>
@@ -45,8 +45,8 @@
                         <td class="text-center">Earth, Wind, and Fire</td>
                         <td class="text-center">1975</td>
                         <td class="text-center">
-                            <button class="rounded-full bg-lime-200 p-1 hover:bg-lime-50">Update</button>
-                            <button class="rounded-full bg-lime-200 p-1 hover:bg-lime-50">Delete</button></button>
+                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
+                            <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
                         </td>
                         </tr>
                     </tbody>
