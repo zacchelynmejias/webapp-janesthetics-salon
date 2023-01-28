@@ -83,14 +83,12 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>Janesthetic Salon</h1>
-          <h2>Tungao Butuan City Branch</h2>
+          <center> <h2>Tungao Butuan City Branch</h2></center>
           <div>
-      
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -98,7 +96,15 @@
         </div>
       </div>
     </div>
-
+    <!-- <style>
+      body {
+        background-image: url('https://i.pinimg.com/736x/bb/5a/69/bb5a69192d61dcf36428eb65254d9c71.jpg');
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-position: center;
+        background-size: cover;
+      }
+    </style> -->
   </section><!-- End Hero -->
 
   <main id="main">
