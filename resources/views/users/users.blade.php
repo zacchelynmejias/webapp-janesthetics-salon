@@ -9,7 +9,7 @@
         @if ( session('status'))
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 my-5">
             <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-gray-800 dark:text-green-400" role="alert">
-            <span class="font-medium">Added User Successfully!</span>
+            <span class="font-medium"></span>{{session('status')}}
             </div>
         </div>
         @endif
