@@ -65,7 +65,12 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        $user = User::find($id);
+
+        return view('users.form', [
+                'header'    =>  'Update User',
+                'user'      =>  $user
+        ]);
     }
 
     /**
@@ -77,7 +82,19 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        //for validation
+        $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255']
+        ]);
+
+        $user = User::find($id);
+
+        $user->update($request->all());
+
+        session()->flash('status', 'Update User Successfully!');
+
+        return redirect('/users/update/' . $user->id);
     }
 
     /**
@@ -88,6 +105,6 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        
     }
 }

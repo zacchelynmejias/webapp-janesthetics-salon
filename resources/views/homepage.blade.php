@@ -54,24 +54,7 @@
           <li><a class="nav-link scrollto" href="#about">About Us</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-         <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
+         
           <li><a class="nav-link scrollto" href="#contact">Contact & location</a></li>
           <li><a class="getstarted scrollto" href="{{url('login')}}">Log In</a></li>
         </ul>
@@ -96,15 +79,7 @@
         </div>
       </div>
     </div>
-    <!-- <style>
-      body {
-        background-image: url('https://i.pinimg.com/736x/bb/5a/69/bb5a69192d61dcf36428eb65254d9c71.jpg');
-        background-repeat: no-repeat;
-        background-attachment:fixed;
-        background-position: center;
-        background-size: cover;
-      }
-    </style> -->
+
   </section><!-- End Hero -->
 
   <main id="main">
@@ -116,6 +91,8 @@
         <div class="section-title">
           <!-- <h2></h2> -->
           <p>Announcement</p>
+          <marquee> PROMO    </marquee>
+
         </div>
 
         <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">

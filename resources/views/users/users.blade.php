@@ -43,8 +43,16 @@
                             <td> {{ $user->name }} </td>
                             <td class="text-center"> {{ $user->email }} </td>
                             <td class="text-center">
+                                
+                                <a href="{{ url('/users/update/' . $user->id) }}">
                                 <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Update</button>
-                                <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Delete</button></button>
+                                </a>
+                                <a href="{{ url('/users/password/' . $user->id) }}">
+                                <button class="rounded-full bg-blue-900 p-1 hover:bg-blue-700">Password</button>
+                                </a>
+                                <a href="{{ url('/users/delete/' . $user->id) }}">
+                                <button class="rounded-full bg-red-900 p-1 hover:bg-red-700">Delete</button></button>
+                                </a>
                             </td>
                             </tr>
                         @endforeach
