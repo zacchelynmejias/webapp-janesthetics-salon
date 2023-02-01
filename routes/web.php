@@ -27,6 +27,10 @@ Route::get('/users', [UserController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('users');
 
+Route::get('/announcement',function () {
+        return view('announcement');
+    })->middleware(['auth', 'verified'])->name('announcement');
+
 Route::get('/users/add', [UserController::class, 'form'])
     ->middleware(['auth', 'verified']);
 
