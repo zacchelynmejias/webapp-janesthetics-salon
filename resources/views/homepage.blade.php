@@ -91,13 +91,13 @@
         <div class="section-title">
           <!-- <h2></h2> -->
           <p>Announcement</p>
-          <marquee> PROMO    </marquee>
+          <!-- <marquee> PROMO    </marquee> -->
 
         </div>
 
         <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="hair.jpg" class="img-fluid" alt="PROMO"></div>
             <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
@@ -106,7 +106,7 @@
             <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src=" " class="img-fluid" alt=""></div>
           </div>
-          <!-- <div class="swiper-pagination"></div> -->
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>

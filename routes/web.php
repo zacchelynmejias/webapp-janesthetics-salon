@@ -46,8 +46,11 @@ Route::post('/users/update/{id}', [UserController::class, 'update'])
 Route::get('/users/delete/{id}', [UserController::class, 'destroy'])
     ->middleware(['auth', 'verified']);
 
+Route::get('/users/password/{id}', [UserController::class, 'password'])
+    ->middleware(['auth', 'verified']);
 
-    
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

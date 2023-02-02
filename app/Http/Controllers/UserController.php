@@ -111,4 +111,9 @@ class UserController extends Controller
 
         return redirect()->back()->with('Deleted User Successfully!');
     }
+
+
+    public function password($id){
+        
+    }
 }
