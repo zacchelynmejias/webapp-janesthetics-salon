@@ -12,6 +12,24 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        <style>
+
+        .bg-green-800 {
+             --tw-bg-opacity: 1;
+            background-color: #38db4bbd;
+        }
+
+        .bg-red-900 {
+            --tw-bg-opacity: 1;
+            background-color: #ff1f1fba;
+        }
+
+        .bg-blue-900 {
+            --tw-bg-opacity: 1;
+            background-color: #1919fdab;
+        }
+    </style>
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">

@@ -57,6 +57,7 @@
          
           <li><a class="nav-link scrollto" href="#contact">Contact & location</a></li>
           <li><a class="getstarted scrollto" href="{{url('login')}}">Log In</a></li>
+          <li><a class="getstarted scrollto" href="{{url('register')}}">Register</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
