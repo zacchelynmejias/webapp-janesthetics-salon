@@ -19,7 +19,7 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
 
 
-
+                <!-- User form -->
                 <form method="POST" action="{{ (url()->current() == url('/users/add') ) ? url('/users/add'):url('/users/update/' . $user->id) }}">
                     @csrf
 
@@ -37,6 +37,7 @@
                         <x-input-error :messages="$errors->get('email')" class="mt-2" />
                     </div>
 
+                    <!-- Password input (displayed only for adding users) -->
                     @if( url()->current() == url('/users/add') )
                     <!-- Password -->
                     <div class="mt-4">
@@ -51,6 +52,7 @@
                     </div>
                     @endif
 
+                     <!-- Submit button -->
                     <div class="flex items-center justify-end mt-4">
                         <x-primary-button class="ml-4">
                             {{ $header }}
